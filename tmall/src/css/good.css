@@ -1,0 +1,204 @@
+.app .good-intro{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.app .good-intro .intro-preview{
+	width: 352px;
+	float: left;
+	padding-bottom: 15px;
+	position: relative;
+}
+.app .good-intro .intro-preview .spec{
+	border: 1px solid #eee;
+	width: 350px;
+	height: 350px;
+	margin-bottom: 20px;
+	position: relative;
+}
+.app .good-intro .intro-preview .spec img{
+	width: 350px;
+	height: 350px;
+}
+.app .good-intro .intro-preview #preview{
+	width: 540px;
+	height: 540px;
+	position: absolute;
+	visibility: hidden;
+	top: 0;
+	left: 352px;
+}
+.app .good-intro .intro-preview .spec-list{
+	margin-bottom: 18px;
+}
+.app .good-intro .intro-preview .spec-list ul{
+	width: 350px;
+	height: 54px;
+	overflow: hidden;
+}
+.app .good-intro .intro-preview .spec-list ul li{
+	float: left;
+	margin: 0 2px;
+}
+.app .good-intro .intro-preview .spec-list ul li img{
+	border: 2px solid #fff;
+}
+.app .good-intro .intro-preview .spec-list ul li:hover img,.app .good-intro .intro-preview .spec-list ul li.cur img{
+	border: 2px solid #e53e41;
+}
+.app .good-intro .intro-info{
+	width: 800px;
+	float: left;
+	margin-left: 30px;
+}
+.app .good-intro .intro-info dt{
+	font-weight: normal;
+	float: left;
+	padding-left: 10px;
+	color: #999;
+}
+.app .good-intro .intro-info dd{
+	margin-left: 70px;
+}
+.app .good-intro .intro-info .good-title{
+	font-weight: 700;
+	font-size: 16px;
+	color: #666;
+	padding-top: 10px;
+	line-height: 28px;
+	margin-bottom: 5px;
+}
+.app .good-intro .intro-info .good-summary{
+	padding-top: 10px;
+	background: #f3f3f3;
+}
+.app .good-intro .intro-info .good-summary .price dt{
+	line-height: 34px;
+}
+.app .good-intro .intro-info .good-summary .price dd{
+	height: 43px;
+	color: #e4393c;
+	margin-right: 10px;
+	font-size: 16px;
+}
+.app .good-intro .intro-info .good-summary .price dd i{
+	font-style: normal;
+	font-size: 16px;
+}
+.app .good-intro .intro-info .good-summary .price dd span{
+	font-size: 22px;
+}
+.app .good-intro .intro-info .good-summary .commit{
+	background: url(https://static.360buyimg.com/item/unite/1.0.95/components/default/common/i/price-bg.png) 0 -12px repeat-x #efefef;
+	padding-bottom: 5px;
+}
+.app .good-intro .intro-info .good-summary .commit dt{
+	line-height: 30px;
+}
+.app .good-intro .intro-info .good-summary .commit dd{
+	margin-left: 70px;
+	padding-right: 90px;
+	line-height: 30px;
+}
+.app .good-intro .intro-info .good-summary .commit dd span{
+	font-size: 14px;
+	color: #005ea7;
+	margin-left: 5px;
+}
+.app .good-intro .intro-info .good-stock{
+	border-bottom: 1px dotted #dfdfdf;
+	margin-bottom: 15px;
+}
+.app .good-intro .intro-info .good-stock .deliver{
+	padding: 10px 0;
+}
+.app .good-intro .intro-info .good-stock .deliver .hl_red{
+	color: #e4393c;
+}
+.app .good-intro .intro-info .good-choose .choose-color{
+	line-height: 40px;
+	border-bottom: 1px dotted #dfdfdf;
+	padding-bottom: 10px;
+	margin-bottom: 15px;
+}
+.app .good-intro .intro-info .good-choose .choose-color dd .item{
+	float: left;
+	color: #666;
+	margin-right: 7px;
+	margin-bottom: 4px;
+	background: #f7f7f7;
+}
+.app .good-intro .intro-info .good-choose .choose-color dd .item a{
+	border: 1px solid #ccc;
+	color: #999;
+	display: block;
+}
+.app .good-intro .intro-info .good-choose .choose-color dd .item:hover a,.app .good-intro .intro-info .good-choose .choose-color dd .item.cur a{
+	border: 1px solid #e3393c;
+	color: #666;
+}
+.app .good-intro .intro-info .good-choose .choose-color dd .item a img{
+	width: 40px;
+	height: 40px;
+}
+.app .good-intro .intro-info .good-choose .choose-color dd .item a i{
+	font-style: normal;
+	margin: 0 8px;
+}
+.app .good-intro .intro-info .good-choose .choose-btns{
+	margin-top: 10px;
+	margin-bottom: 20px;
+	padding: 0 10px;
+}
+.app .good-intro .intro-info .good-choose .choose-btns .choose-amout{
+	width: 58px;
+	height: 44px;
+	border: 1px solid #ccc;
+	margin-right: 10px;
+	float: left;
+	position: relative;
+}
+.app .good-intro .intro-info .good-choose .choose-btns .choose-amout input{
+	display: block;
+	width: 43px;
+	height: 42px;
+	line-height: 42ox;
+	position: absolute;
+	top: 1px;
+	left: 0;
+	text-align: center;
+}
+.app .good-intro .intro-info .good-choose .choose-btns .choose-amout a{
+	display: block;
+	width: 15px;
+	text-align: center;
+	height: 22px;
+	line-height: 22px;
+	background: #f1f1f1;
+	position: absolute;
+	right: -1px;
+	border: 1px solid #ccc;
+}
+.app .good-intro .intro-info .good-choose .choose-btns .choose-amout a.btn-reduce{
+	bottom: -1px;
+}
+.app .good-intro .intro-info .good-choose .choose-btns .choose-amout a.btn-add{
+	top: -1px;
+}
+.app .good-intro .intro-info .good-choose .choose-btns .choose-amout a.btn-disabled{
+	color: #CCCCCC;
+	cursor: not-allowed;
+}
+.app .good-intro .intro-info .good-choose .choose-btns .to-cart{
+	margin-right: 10px;
+	float: left;
+}
+.app .good-intro .intro-info .good-choose .choose-btns .to-cart a{
+	display: block;
+	height: 46px;
+	line-height: 46px;
+	padding: 0 26px;
+	font-size: 18px;
+	font-weight: 700;
+	background: #df3033;
+	color: #fff;
+}

@@ -1,0 +1,203 @@
+.app .container{
+	border: 1px solid #E7E3E7;
+	border-top: none;
+}
+.app .nav-bread{
+	position: relative;
+	padding-top: 15px;
+	margin-bottom: 5px;
+}
+.app .nav-bread .nav-bread-item{
+	float: left;
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+.app .nav-bread .nav-bread-arrow{
+	float: left;
+	margin-right: 5px;
+}
+.app .content .main .filter{
+	height: 25px;
+	background: #f1f1f1;
+	padding: 6px 8px;
+	border-bottom: 1px solid #e7e3e7;
+}
+.app .content .main .filter .sort{
+	float: left;
+	margin-right: 20px;
+}
+.app .content .main .filter .sort a{
+	float: left;
+	padding: 0 9px;
+	height: 23px;
+	border: 1px solid #ccc;
+}
+.app .content .main .filter .sort a.cur{
+	border-color: #e4393c;
+	background: #e4393c;
+	color: #fff;
+}
+.app .content .main .main-content{
+	margin-top: 15px;
+}
+.app .content .main .main-content>ul{
+	float: right;
+	width: 100%;
+	margin-right: -40px;
+}
+.app .content .main .main-content>ul>li{
+	box-sizing: border-box;
+	height: 444px;
+	padding: 11px 15px;
+	margin-right: 40px;
+	margin-bottom: 22px;
+	width: 250px;
+	float: left;
+	border: 1px solid #fff;
+}
+.app .content .main .main-content>ul>li:hover{
+	border-color: #e9e9e9;
+	box-shadow: 0 0 2px 2px #f8f8f8;
+}
+.app .content .main .main-content>ul>li .img-box{
+	margin-bottom: 5px;
+	height: 220px;
+}
+.app .content .main .main-content>ul>li .img-box a img{
+	width: 220px;
+	height: 220px;
+}
+.app .content .main .main-content>ul>li .scroll{
+	margin-bottom: 10px;
+}
+.app .content .main .main-content>ul>li .scroll>ul{
+	height: 29px;
+	overflow: hidden;
+}
+.app .content .main .main-content>ul>li .scroll>ul>li{
+	float: left;
+	width: 34px;
+	height: 29px;
+}
+.app .content .main .main-content>ul>li .scroll>ul>li.cur a{
+	padding: 0;
+	border-width: 2px;
+	border-color: #e4393c;
+}
+.app .content .main .main-content>ul>li .scroll>ul>li a{
+	cursor: default;
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	border: 1px solid #ddd;
+	padding: 1px;
+}
+.app .content .main .main-content>ul>li .price{
+	line-height: 22px;
+	height: 22px;
+	width: 100%;
+	margin-bottom: 8px;
+}
+.app .content .main .main-content>ul>li .price strong{
+	float: left;
+	margin-right: 10px;
+	color: #e4393c;
+	font-size: 20px;
+	font-weight: 400;
+}
+.app .content .main .main-content>ul>li .price strong em{
+	font-style: normal;
+	font-size: 16px;
+}
+.app .content .main .main-content>ul>li .price strong i{
+	font-style: normal;
+}
+.app .content .main .main-content>ul>li .title{
+	overflow: hidden;
+	height: 40px;
+	line-height: 20px;
+	margin-bottom: 8px;
+}
+.app .content .main .main-content>ul>li .commit{
+	width: 100%;
+	height: 18px;
+	margin-top: -3px;
+	margin-bottom: 9px;
+}
+.app .content .main .main-content>ul>li .commit strong{
+	color: #a7a7a7;
+	font-weight: 400;
+	font-size: 12px;
+}
+.app .content .main .main-content>ul>li .commit strong em{
+	color: #646fb0;
+	font-weight: 700;
+	font-style: normal;
+}
+.app .content .main .main-content>ul>li .shop{
+	line-height: 18px;
+	height: 18px;
+	margin-top: -3px;
+	margin-bottom: 9px;
+}
+.app .content .main .main-content>ul>li .shop span{
+	font-size: 12px;
+	color: #999;
+}
+.app .content .main .main-content>ul>li .icons{
+	height: 16px;
+	margin-bottom: 12px;
+}
+.app .content .main .main-content>ul>li .icons i{
+	height: 14px;
+	line-height: 14px;
+	font-style: normal;
+	padding: 0 3px;
+	border: 1px solid #e23a3a;
+	font-size: 12px;
+	color: #e23a3a;
+	border-radius: 2px;
+}
+.app .content .main .main-content>ul>li .icons i.icon1{
+	color: #fff;
+	background: #e23a3a;
+}
+.app .content .main .main-content>ul>li .icons i.icon2{
+	background: #31c19e;
+	border-color: #31c19e;
+	color: #fff;
+}
+.app .content .main .main-content>ul>li .icons i.icon3{
+	background: #4b9bfc;
+	border-color: #4b9bfc;
+	color: #fff;
+}
+.app .content .main .main-content>ul>li .icons i.icon4{
+	background: #fff;
+	border-color: #4d88ff;
+	color: #4d88ff;
+}
+.app .content .main .main-content .pages{
+	margin-bottom: 10px;
+	text-align: center;
+}
+.app .content .main .main-content .pages ul{
+	display: inline-block;
+}
+.app .content .main .main-content .pages ul li{
+	float: left;
+}
+.app .content .main .main-content .pages ul li a{
+	color: #333;
+	border: 1px solid #ddd;
+	background-color: #f7f7f7;
+	height: 36px;
+	line-height: 36px;
+	padding: 10px 14px;
+	margin-right: 10px;
+	font-size: 14px;
+}
+.app .content .main .main-content .pages ul li a.cur{
+	color: #fff;
+	background-color: #E1251B;
+}
